@@ -25,7 +25,7 @@ We take advantage of the fact that difference between two.
 Here we are not using multiple files, each one for all different versions.
 It would  have contained un-necessary multiple copies of same data.
 We take the advantage of the fact that difference between two versions will always be the only one operation. So we are keeping track of difference between previous version and current version only.
-For that, we have maintained an extra metadata file and in that file we insert the required information about difference between two versions.
+For that, we have maintained an extra metadata file and in that file we insert the required information about difference between two versions
  
 
 

@@ -12,6 +12,8 @@ New in version 2 is:
 
 Execution steps:
 
-1. svc filename   #commit changes
+1. first execute this command:   alias svc="python svc.py"
 
-2. svc N          #N=0....N Version number
+2. svc filename   #commit changes   for ex.  svc test.txt
+
+3. svc N          #N=0....N Version number   for ex.  svc 1

@@ -1,4 +1,4 @@
-1. Create one file ex. test.txt that contains actual data
+1. Create one file for ex. test.txt that contains actual data.
 2. Create one another metadata file which contains respective version data of the actual file.
 3. At a time only one line can be appended at the end or one line can be delated from anywhere.
 

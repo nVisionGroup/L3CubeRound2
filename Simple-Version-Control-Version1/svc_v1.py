@@ -46,7 +46,7 @@ if(option=="COMMIT"):      # svc filename
 	f.close()		#close the actual data file i.e. test.txt 
 else:			#if option is to display perticular version data
 	meta=open("meta","r")	#open metadata file in read mode
-	version=int(argc)-1	#identify input version number
+	version=int(argc)	
 	
 	for i ,line in enumerate(meta):  #assign version number to each line present n metadata file 
 		if(version==i):		#check input version number in metadata file

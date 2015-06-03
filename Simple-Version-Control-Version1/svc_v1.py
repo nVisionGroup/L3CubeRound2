@@ -18,6 +18,7 @@ argc=sys.argv[1]  	#filename or version number
 if(option=="COMMIT"):      # svc filename
 	f=open(argc,"r+")    #open input file in read mode
 	meta=open("meta","r")  #open metadata file read mode
+	a=meta.readlines()
 	print a
 	f.seek(0)
 	print "Appending"

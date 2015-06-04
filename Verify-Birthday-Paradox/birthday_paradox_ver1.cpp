@@ -25,7 +25,7 @@ void Birthday::probability(int person)
          p = p*((365.0-i)/365.0);  //calculating the probability of n number of people with the probability formula.(1*(364/365)*(363*365)*.....))
      }
 
-     cout<<"\nThe probablity for the birthday is :: %f"<<1-p;
+     cout<<"\nThe probablity for the birthday is :: "<<1-p;
 
  
 }
@@ -54,8 +54,8 @@ void Birthday::dynamic(int person)
             count++;
     }
     pairs=count/1000;
-    cout<<"\nThe number of sets out of 1000 which have clashing birthdays :: %f\n"<<count;
-    cout<<"\nThe probability of persons with matching(pairs) birthday out of 1000 are :: %f\n"<<pairs;
+    cout<<"\nThe number of sets out of 1000 which have clashing birthdays :: "<<count;
+    cout<<"\nThe probability of persons with matching(pairs) birthday out of 1000 are :: "<<pairs;
 
 
 }

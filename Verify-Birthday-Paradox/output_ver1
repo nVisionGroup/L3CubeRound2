@@ -1,3 +1,9 @@
+Steps for execution:
+1.   g++ birthday_paradox_ver1.cpp
+2.   ./a.out
+
+Output:
+
 Enter the number of person of whose you want to see the probability ::23
 
 The probablity for the birthday is :: 0.507297

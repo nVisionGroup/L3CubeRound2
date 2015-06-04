@@ -1,18 +1,16 @@
 
 New in version 2 is:
 
-1. Suppose if first version and third versin contents are same then instead of creating new third version it 
-   assumes that old version and gives msg like "already available"
 
-2. It checks the validity of versions and also gives proper msg.
+1. It checks the validity of versions and also gives proper msg.
 
-3. Validation like takes only 10 charachters including '\n' in single line and
+2. Validation like takes only 10 charachters including '\n' in single line and
   only max 20 lines will be present in actual text file.
   
 
 Execution steps:
 
-1. first execute this command:   alias svc="python svc.py"
+1. first execute this command:   alias svc="python svc_v2.py"
 
 2. svc filename   #commit changes   for ex.  svc test.txt
 

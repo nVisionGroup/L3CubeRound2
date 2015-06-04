@@ -30,7 +30,7 @@ if(option=="COMMIT"):      # svc filename
 		for i in a[-2]:	#counts the lines of current and previous version 
 			if(i==" "):
 				count+=1 			
-		if(len(data)==count-1):	#current and previous lines are same 
+		if(len(data)==count-1):	 
 			print "Already commited"
 			exit()
 	else:				#if new line is append or delete

@@ -1,0 +1,11 @@
+Steps for execution:
+1.   g++ birthday_paradox_ver1.cpp
+2.   ./a.out
+
+Output:
+
+Enter the number of person of whose you want to see the probability ::23
+
+The probablity for the birthday is :: 0.507297
+The number of sets out of 1000 which have clashing birthdays :: 505
+The probability of persons with matching(pairs) birthday out of 1000 are :: 0.505

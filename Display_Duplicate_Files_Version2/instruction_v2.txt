@@ -1,0 +1,10 @@
+Recommended Python version is 2.7.5
+
+Execution steps:
+
+1. first execute this command:   python2.7 filename.py
+
+2. Give valid path of directory. If path is not valid, path should be rentered.
+
+3. To delete file, The index number of those files should be given as index number-Enter-Next Number-Enter---
+  and 'x' to exit.

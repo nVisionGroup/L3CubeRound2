@@ -14,7 +14,7 @@ elif(argv==2):
 		option="VERSION"
 	else:
 		option="COMMIT"	
-argc=sys.argv[1]  	#filename or version number
+argc=sys.argv[1]  	
 if(option=="COMMIT"):      # svc filename
 	f=open(argc,"r+")    #open input file in read mode
 	meta=open("meta","r")  #open metadata file read mode

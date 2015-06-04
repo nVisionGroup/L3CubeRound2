@@ -1,0 +1,23 @@
+1. Create one file for ex. test.txt that contains actual data.
+2. Create one another metadata file which contains respective version data of the actual file.
+3. At a time only one line can be appended at the end or one line can be delated from anywhere.
+
+
+Steps:
+1. python svc_v1.py test.txt
+
+  This line when executed create new version if and only if new line is appended or deleted.
+  If changes are not found it gives msg:"Already Commited"
+  
+2 python svc_v1.py N
+
+  Here N may be any version number from 1 to N , above command when executed output contains
+  the respective version data from the metadata file.
+  
+  ex:python svc_v1.py 1  // It gives version 1 data of the file
+     python svc_v1.py 2  // It gives version 2 data of the file
+     
+     
+     
+     
+     

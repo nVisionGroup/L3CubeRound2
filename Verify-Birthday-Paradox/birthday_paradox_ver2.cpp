@@ -25,7 +25,7 @@ void Birthday::probability(int person)
          p = p*((365.0-i)/365.0);  //calculating the probability of n number of person with the probability formula.
      }
 
-     printf("\nThe probablity for the birthday is :: %f",1-p);
+     cout<<"\nThe probablity for the birthday is :: "<<1-p;
 
  
 }
@@ -54,8 +54,8 @@ void Birthday::dynamic(int person,int tests)
             count++;
     }
     p=count/tests;
-    printf("\nThe number of sets out of %d which have clashing birthdays :: %f\n",tests,count);
-    printf("\nThe probability of persons with matching(pairs) birthday out of %d are :: %f\n",tests,p);
+    printf("\nThe number of sets out of %d which have clashing birthdays :: %f",tests,count);
+    printf("\nThe probability of persons with matching(pairs) birthday out of %d are ::%f \n",tests,p);
 }
 
 int main()
@@ -63,11 +63,11 @@ int main()
     Birthday b;
     int person;
     int tests;
-    printf("Enter the number of people of whose you want to see the probability :: ");
-    scanf("%d",&person);
+    cout<<"Enter the number of people of whose you want to see the probability :: ";
+    cin>>person;
 
-    printf("Enter how many test you want to perform for getting the probability :: ");
-    scanf("%d",&tests);
+    cout<<"Enter how many test you want to perform for getting the probability :: ";
+    cin>>tests;
     
     b.probability(person); 
     b.dynamic(person,tests);

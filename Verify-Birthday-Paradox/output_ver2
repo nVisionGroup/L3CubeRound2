@@ -1,0 +1,21 @@
+Enter the number of people of whose you want to see the probability :: 23
+Enter how many test you want to perform for getting the probability :: 10
+
+The probablity for the birthday is :: 0.507297
+The number of sets out of 10 which have clashing birthdays :: 0.000000
+The probability of persons with matching(pairs) birthday out of 10 are ::0.000000 
+rohit@happys-heart:~/Developer/TUSHAR/SVC/BP$ ./a.out
+Enter the number of people of whose you want to see the probability :: 50
+Enter how many test you want to perform for getting the probability :: 25
+
+The probablity for the birthday is :: 0.970374
+The number of sets out of 25 which have clashing birthdays :: 3.000000
+The probability of persons with matching(pairs) birthday out of 25 are ::0.120000 
+rohit@happys-heart:~/Developer/TUSHAR/SVC/BP$ ./a.out
+Enter the number of people of whose you want to see the probability :: 60
+Enter how many test you want to perform for getting the probability :: 25
+
+The probablity for the birthday is :: 0.994123
+The number of sets out of 25 which have clashing birthdays :: 6.000000
+The probability of persons with matching(pairs) birthday out of 25 are ::0.240000 
+
